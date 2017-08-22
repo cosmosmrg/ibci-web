@@ -55,7 +55,7 @@
   <body class="page page-index navbar-layout-default">
 
     <!-- @plugin: page loading indicator, delete to remove loader -->
-    <div class="page-loader" data-toggle="page-loader"></div>
+    <!-- <div class="page-loader" data-toggle="page-loader"></div> -->
 
     <a id="#top" href="#content" class="sr-only">Skip to content</a>
 
@@ -66,7 +66,15 @@
 
         <!--Header & Branding region-->
         <div class="header">
-          <!-- all direct children of the .header-inner element will be vertically aligned with each other you can override all the behaviours using the flexbox utilities (flexbox.htm) All elements with .header-brand & .header-block-flex wrappers will automatically be aligned inline & vertically using flexbox, this can be overridden using the flexbox utilities (flexbox.htm) Use .header-block to stack elements within on small screen & "float" on larger screens use .flex-first or/and .flex-last classes to make an element show first or last within .header-inner or .headr-block elements -->
+          <!-- all direct children of the .header-inner element will be
+          vertically aligned with each other you can override all the behaviours
+          using the flexbox utilities (flexbox.htm) All elements with
+          .header-brand & .header-block-flex wrappers will automatically be
+          aligned inline & vertically using flexbox, this can be overridden
+          using the flexbox utilities (flexbox.htm) Use .header-block to stack
+           elements within on small screen & "float" on larger screens use
+           .flex-first or/and .flex-last classes to make an element show first
+           or last within .header-inner or .headr-block elements -->
           <div class="header-inner container">
             <!--branding/logo -->
             <div class="header-brand flex-first" style="max-width:150px">
@@ -86,21 +94,38 @@
                 <!--main navigation-->
                 <ul class="nav navbar-nav float-lg-right dropdown-effect-fade">
                   <!-- Homepages -->
-                  <li class="nav-item">
+                  <li class="nav-item active">
                     <a href="index.html" class="nav-link" id="home-icon"> <i class="fa fa-home"></i> <span class="hidden-xs-up">Home</span> </a>
                   </li>
-
                   <li class="nav-item">
-                    <a href="work-expr.html" class="nav-link" id="work-experience-button">Work Experiences</a>
+                    <a href="index.html#content" class="nav-link" id="about-button">About</a>
                   </li>
 
                   <li class="nav-item">
-                    <a href="photo-gallery.html" class="nav-link" id="photo-gallery-button">Photo Gallery</a>
+                    <a href="work-expr.html" class="nav-link" id="expertise-button">Expertise</a>
                   </li>
 
                   <li class="nav-item">
-                    <a href="career-op.html" class="nav-link" id="career-button">Career opportunities</a>
+
+                    <a href="photo-gallery.html" class="nav-link" id="portfolio-button">PortFolio</a>
                   </li>
+
+                  <li class="nav-item">
+                    <a href="" class="nav-link" id="partnership-button">Partnership</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a href="" class="nav-link" id="sustainability-button">Sustainability</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a href="news.html" class="nav-link" id="news-button">News</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a href="career-op.html" class="nav-link" id="career-button">Careers</a>
+                  </li>
+
                   <li class="nav-item">
                     <a href="contact.html" class="nav-link" id="contact-button">Contact us</a>
                   </li>
