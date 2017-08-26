@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>::: IBCI :::</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- @todo: fill with your company info or remove -->
+    <meta name="description" content="">
+    <meta name="author" content="Themelize.me">
+
+    <!-- Bootstrap 4.0.0-alpha.6 CSS via CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+
+    <!-- Plugins required on all pages NOTE: Additional non-required plugins are loaded ondemand as of AppStrap 2.5 -->
+
+    <!-- Theme style -->
+    <link href="assets/css/theme-style.min.css" rel="stylesheet">
+
+    <!--Your custom colour override-->
+    <link href="assets/css/colour-blue-dark.css" id="colour-scheme" rel="stylesheet">
+
+    <!-- Your custom override -->
+    <link href="assets/css/custom-style.css" rel="stylesheet">
+
+
+
+    <!-- Optional: ICON SETS -->
+    <!-- Iconset: Font Awesome 4.7.0 via CDN -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Iconset: flag icons - http://lipis.github.io/flag-icon-css/ -->
+    <link href="assets/plugins/flag-icon-css/css/flag-icon.min.css" rel="stylesheet">
+    <!-- Iconset: ionicons - http://ionicons.com/ -->
+    <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
+    <!-- Iconset: Linearicons - https://linearicons.com/free -->
+    <link href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css" rel="stylesheet">
+
+
+    <!-- Le fav and touch icons - @todo: fill with your icons or remove -->
+    <link rel="shortcut icon" href="assets/assets/img/icons/favicon.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/assets/img/icons/114x114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/assets/img/icons/72x72.png">
+    <link rel="apple-touch-icon" href="assets/assets/img/icons/default.png">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Rambla' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Calligraffitti' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
+
+    <!--Plugin: Retina.js (high def image replacement) - @see: http://retinajs.com/-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/retina.js/1.3.0/retina.min.js"></script>
+  </head>
+
+  <!-- ======== @Region: body ======== -->
+  <body class="page page-index navbar-layout-default">
+    <!-- ======== @Region: #header ======== -->
+    <div id="header">
+
+      <div data-toggle="sticky">
+
+        <!--Header & Branding region-->
+        <div class="header">
+          <!-- all direct children of the .header-inner element will be vertically aligned with each other you can override all the behaviours using the flexbox utilities (flexbox.htm) All elements with .header-brand & .header-block-flex wrappers will automatically be aligned inline & vertically using flexbox, this can be overridden using the flexbox utilities (flexbox.htm) Use .header-block to stack elements within on small screen & "float" on larger screens use .flex-first or/and .flex-last classes to make an element show first or last within .header-inner or .headr-block elements -->
+          <div class="header-inner container">
+            <!--branding/logo -->
+            <div class="header-brand flex-first" style="max-width:150px">
+              <a class="header-brand-text" href="index.html" title="Home">
+                <img src="/assets/images/logo-t.png" alt="logo" height="100%" width="100%">
+              </a>
+            </div>
+            <!-- other header content -->
+            <div class="header-block flex-last">
+              <!-- mobile collapse menu button - index.htmlle="collapse" = default BS menu - data-toggle="jpanel-menu" = jPanel Menu - data-toggle="overlay" = Overlay Menu -->
+              <a href="#top" class="btn btn-link btn-icon header-btn float-right hidden-lg-up" data-toggle="jpanel-menu" data-target=".navbar-main" data-direction="right"> <i class="fa fa-bars"></i> </a>
+            </div>
+
+            <div class="navbar navbar-toggleable-md">
+              <!--everything within this div is collapsed on mobile-->
+              <div class="navbar-main collapse">
+                <!--main navigation-->
+                <ul class="nav navbar-nav float-lg-right dropdown-effect-fade">
+                  <!-- Homepages -->
+                  <li class="nav-item">
+                    <a href="index.html" class="nav-link" id="home-icon"> <i class="fa fa-home"></i> <span class="hidden-xs-up">Home</span> </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="index.html#content" class="nav-link" id="about-button">About</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a href="work-expr.html" class="nav-link" id="expertise-button">Expertise</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a href="photo-gallery.html" class="nav-link" id="portfolio-button">PortFolio</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a href="" class="nav-link" id="partnership-button">Partnership</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a href="" class="nav-link" id="sustainability-button">Sustainability</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a href="news.html" class="nav-link" id="news-button">News</a>
+                  </li>
+
+                  <li class="nav-item active">
+                    <a href="career-op.html" class="nav-link" id="career-button">Careers</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a href="contact.html" class="nav-link" id="contact-button">Contact us</a>
+                  </li>
+
+                </ul>
+              </div>
+              <!--/.navbar-collapse -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ======== @Region: #content ======== -->
+    <div id="content" class="p-0">
+      <div class="container pt-6 pb-6">
+        <h2 class="title-divider">
+          <span>About<span class="font-weight-normal text-muted">Us</span></span>
+        </h2>
+        <!-- About company -->
+        <h4>
+          Overview
+        </h4>
+        <p>
+          IBCI group was originally founded back in 1988 as a contractor specialized
+          in Industrial Building, Tunneling and Waste Water Projects. Later in 2010,
+          IBC Industrial Co., Ltd. was established as Construction Company specialized in Energy,
+          Petrochemicals and Industrial Sectors.
+        </p>
+        <p>
+          We have targeted ourselves as a valued partner for Construction projects
+          within Oil & Gas, Petrochemical and Industrial fields. We procure experiences
+          on both on-shore and off-shore projects including those where local communities
+          are involved.
+        </p>
+        <p>
+          One of our top goals when pursuing projects are to deliver high project
+          management, quality and safety standards, and Environmental practices
+          in order to ensure that all stakeholders are contented.
+        </p>
+
+        <!--Message-->
+        <div>
+          <h4>
+            Message from Managing Director
+          </h4>
+          <div class="row">
+            <div class="col-md-12">
+              <blockquote class="blockquote-bubble">
+                <p class="blockquote-bubble-content">
+                  "Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                   Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                   when an unknown printer took a galley of type and scrambled it to make
+                   a type specimen book. It has survived not only five centuries,
+                   but also the leap into electronic typesetting, remaining essentially unchanged.
+                   It was popularised in the 1960s with the release of Letraset sheets containing
+                    Lorem Ipsum passages, and more recently with desktop publishing software
+                     like Aldus PageMaker including versions of Lorem Ipsum."
+                </p>
+                <footer>
+                  <img src="assets/img/team/steve.jpg" alt="Steve Bloggs" class="img-circle" />
+                  Mr. Teerapan Ranwes <span class="text-primary font-weight-bold"></span> <a href="#">(Managing Director)</a>
+                </footer>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+
+        <br/>
+        <br/>
+        <br/>
+        <!-- vision/mission/value -->
+        <h2 class="title-divider">
+          <span>Vision<span class="font-weight-normal text-muted">/</span>Mission
+          <span class="font-weight-normal text-muted">/</span>Values</span>
+        </h2>
+
+        <h4 class="mt-4">
+          IBCI’s Vision
+        </h4>
+        <p>
+          IBCI’s vision is to be a top Engineering and Construction Company
+          amongst Energy and Petrochemical Industry in Thailand. We strike
+          to operate our organization with a continual development on
+          innovative and knowledge on our specialized fields.
+        </p>
+        <h4 class="mt-4">
+          IBCI’s Mission
+        </h4>
+        <ul>
+          <li>
+            To be an EPC contractor in Energy Industry
+          </li>
+          <li>
+            To delivery work with the highest possible quality and standards
+            within an agreed timeframe and specified budget and to ensure
+            client’s satisfaction
+          </li>
+          <li>
+            To develop knowledge and ability of all employees sustainably and
+            continually
+          </li>
+          <li>
+            To create a contented working environment for all employees
+          </li>
+          <li>
+            To develop and improve internal organizational management
+            effectively and efficiently using new and improved innovations
+          </li>
+          <li>
+            To build new businesses in relation to our core business to
+            distribute risks of the businesses
+          </li>
+        </ul>
+        <h4 class="mt-4">
+          Values
+        </h4>
+        <p>
+          I – Innovation
+        </p>
+        <p>
+          B – Building Brilliance  ความสว่าง ความฉลาดหลักแหลม ความเก่งกาจ
+        </p>
+        <p>
+          C – Commitment
+        </p>
+        <p>
+          I – Integrity
+        </p>
+
+        <br/>
+        <!-- team -->
+        <h2 class="title-divider">
+          <span>Organizational<span class="font-weight-normal text-muted">Management</span></span>
+        </h2>
+
+        <div class="team team-list mt-4">
+
+          <!--Team Member steve-->
+          <div class="team-member">
+            <div class="row">
+              <div class="col-sm-2">
+                <a href="team-member.html" title="View Steve's profile">
+                  <img src="assets/img/team/steve.jpg" class="img-thumbnail" alt="Steve" />
+                </a>
+              </div>
+              <div class="col-sm-10">
+                <h4 class="name">
+                  Mr. Teerapan Ranwes
+                </h4>
+                <p class="role">Managing Director</p>
+                <p>Ad aptent diam duis eu nibh persto rusticus saluto ulciscor. Macto pagus tego vindico. Dolore euismod nunc sit. Enim eu os qui vulpes.</p>
+              </div>
+            </div>
+          </div>
+          <!--Team Member obama-->
+          <div class="team-member">
+            <div class="row">
+              <div class="col-sm-2">
+                <a href="team-member.html" title="View obama's profile">
+                  <img src="assets/img/team/obama.jpg" class="img-thumbnail" alt="obama" />
+                </a>
+              </div>
+              <div class="col-sm-10">
+                <h4 class="name">
+                  Mr. Pranate Rattanakijsoontorn
+                </h4>
+                <p class="role">Founder & designer</p>
+                <p>Erat eum haero saepius virtus. Eligo genitus meus neque obruo rusticus saepius venio. Aliquip decet esca hos paulatim quadrum quibus tamen.</p>
+              </div>
+            </div>
+          </div>
+          <!--Team Member bono-->
+          <div class="team-member">
+            <div class="row">
+              <div class="col-sm-2">
+                <a href="team-member.html" title="View Bono's profile">
+                  <img src="assets/img/team/bono.jpg" class="img-thumbnail" alt="Bono" />
+                </a>
+              </div>
+              <div class="col-sm-10">
+                <h4 class="name">
+                  Mr. Anan Wiriyakitchai
+                </h4>
+                <p class="role">The Tech Guy</p>
+                <p>Autem enim incassum inhibeo lucidus luctus modo pneum. Abdo caecus ea eu feugiat vel vulpes. Aliquip neo os plaga rusticus vicis.</p>
+              </div>
+            </div>
+          </div>
+
+          <!--Team Member robert-->
+          <div class="team-member">
+            <div class="row">
+              <div class="col-sm-2">
+                <a href="team-member.html" title="View Robert's profile">
+                  <img src="assets/img/team/robert.jpg" class="img-thumbnail" alt="Robert" />
+                </a>
+              </div>
+              <div class="col-sm-10">
+                <h4 class="name">
+                  Mr. Manoj Soni
+                </h4>
+                <p class="role">Junior designer</p>
+                <p>Acsi at pala. Amet antehabeo augue commodo haero minim quae. Eum facilisi velit. Aliquip commodo euismod mauris mos olim praesent probo quibus ratis.</p>
+              </div>
+            </div>
+          </div>
+
+          <!--Team Member jolie-->
+          <div class="team-member">
+            <div class="row">
+              <div class="col-sm-2">
+                <a href="team-member.html" title="View Jolie's profile">
+                  <img src="assets/img/team/jolie.jpg" class="img-thumbnail" alt="Jolie" />
+                </a>
+              </div>
+              <div class="col-sm-10">
+                <h4 class="name">
+                  Ms. Jaruwan Borihankitcharoen
+                </h4>
+                <p class="role">Marketing Expert</p>
+                <p>Gemino quidne tation. Ea eros pneum te. Antehabeo feugiat genitus humo meus pertineo refero sagaciter tum. Aptent commoveo diam distineo jugis pagus volutpat.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <!-- ======== @Region: #footer ======== -->
+    <footer id="footer" class="p-0">
+      <hr class="my-0 hr-blank op-2" />
+      <!--@todo: replace with company copyright details-->
+      <div class="bg-inverse-dark text-sm py-3">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <p class="mb-0"> &copy; Copyright all rights reserved : <span class="footer-link">IBCI</span> </p>
+            </div>
+          </div>
+          <a href="#top" class="btn btn-icon btn-inverse pos-fixed pos-b pos-r mr-3 mb-3 scroll-state-hidden hidden-md-down" title="Back to top" data-scroll="scroll-state"><i class="fa fa-chevron-up"></i></a>
+        </div>
+      </div>
+    </footer>
+
+    <!--jQuery 3.2.1 via CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Tether 1.1.1 via CDN, needed for Bootstrap Tooltips & Popovers -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.1.1/js/tether.min.js"></script>
+
+    <!-- Bootstrap 4.0.0-alpha.6 JS via CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+
+
+    <!-- JS plugins required on all pages NOTE: Additional non-required plugins are loaded ondemand as of AppStrap 2.5 To disable this and load plugin assets manually simple add data-plugins-manual=true to the body tag -->
+
+    <!--Custom scripts & AppStrap API integration -->
+    <script src="assets/js/custom-script.js"></script>
+    <!--AppStrap scripts mainly used to trigger libraries/plugins -->
+    <script src="assets/js/script.min.js"></script>
+  </body>
+</html>
